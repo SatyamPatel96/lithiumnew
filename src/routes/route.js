@@ -21,7 +21,11 @@ router.get("/test-me", function(req, res) {
     const arr1 = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19];
     console.log(fourth.tail(arr1, 1));
     const arr2 = [1, 2, 1, 3, 2];
-    console.log(fourth.union(arr2))
+    const arr21 = [3, 4, 3, 5, 4];
+    const arr22 = [5, 6, 7, 6, 5];
+    const arr23 = [7, 8, 9, 7, 8];
+    const arr24 = [9, 1, 3, 6, 7];
+    console.log(fourth.union(arr2, arr21, arr22, arr23, arr24))
     const arr3 = [
         ["horror", "The Shining"],
         ["drama", "Titanic"],
