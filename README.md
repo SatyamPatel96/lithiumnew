@@ -29,7 +29,7 @@ Create API's to do each of the following:
                     {city:"Bangalore", temp: 301.2},
                     .......
                     ]
-
+ 
 3. Axios POST request assignment
 
             1. Get all the memes at Postman (https://api.imgflip.com/get_memes)
